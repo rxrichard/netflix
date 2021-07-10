@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  background:#000;
+  font-family: 'Helvetica',Helvetica,Arial,sans-serif;
+  color:grey;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem;
+  
+}
+
+
+main section{
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.main{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+.text{
+  text-align: center;
+  color: white
+}
+
+
+.text h1,h2{
+  font-size: 6rem;
+}
+
+.text h3{
+  padding: 3rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.text p{
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+#lang{
+  width: auto;
+  padding: .5rem;
+  margin-right: 2rem;
+
+  background-color: transparent;
+  border-color: white;
+  color:white;
+
+  border-radius: .3rem;
+}
+
+.button{
+  width: 100%;
+  height: auto;
+
+  padding: .8rem 2rem;
+  color: white;
+  background-color: #e50914;
+  
+  font-size: 1.2rem;
+  border-radius: .3rem;
+}
+
+
+.email{
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+#email{
+  
+
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  
+
+}
+
+#email::placeholder{
+  padding: 1rem;
+}
+
+.send_email{
+  
+  background-color: #e50914e3;
+  color:white;
+  font-size: 2rem;
+  width: 35%;
+  height: 6rem;
+
+  padding: 2rem;
+}

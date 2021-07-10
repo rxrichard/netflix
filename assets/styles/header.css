@@ -1,0 +1,32 @@
+.logo{
+
+  width: 18rem;
+  margin-left: 3.5rem;
+  margin-top: .3rem;
+}
+#netflix-logo {
+  fill: #e50914f6;
+  line-height: normal;
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  z-index: 1001;
+}
+
+.header .image{
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/c0a32732-b033-43b3-be2a-8fee037a6146/07eca1c3-6efc-48cc-8880-5c9d7253ac8e/BR-pt-20210607-popsignuptwoweeks-perspective_alpha_website_medium.jpg") no-repeat, linear-gradient( red, blue);
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  opacity: 0.3;
+  z-index: -1;
+  top:0;
+  left:0; 
+
+
+}
+
+.left{
+  margin-right: 2rem;
+}
+

@@ -1,0 +1,55 @@
+.top{
+  width: 100%;
+
+  flex-direction: column;
+  margin-top:auto;
+  border-bottom: 10px solid #222;
+  height: 64vh;
+  justify-content: flex-start;
+}
+
+.register{
+  width: 50%;
+}
+
+.tv{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  border-bottom: 10px solid #222;
+
+}
+
+
+
+.tv .text{
+
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  width: 50%;
+  padding: 15rem;
+
+}
+.tv .text p{
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+
+.tvs{
+  width: 50%;
+}
+.tvs img{
+  position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 9rem;
+}
+.tvs video{
+  z-index: 0;
+  position: absolute;
+  top: 10rem;
+  right: 17rem;
+}
